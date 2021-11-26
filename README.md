@@ -1,21 +1,28 @@
 # live
 
 Real-time user experiences with server-rendered HTML in Go. Inspired by and
-borrowing from Phoenix LiveViews.
+borrowing from Phoenix LiveView.
 
-Live is intended as a replacement for React, Vue, Angular etc. You can write
-an interactive web app just using Go and its templates.
+Live is intended as an alternative for React, Vue, Hotwire (Rails Turbolinks), Unpoly, etc.
+You can write an interactive web app just using Go and its templates. Coming soon, you can
+write the templates in JSX and [morphDOM](https://github.com/patrick-steele-idem/morphdom)).
+This is to stay true to the spirit of web development and an attempt to solve the problem
+in a natural way. That is using an existing templating standard like JSX or Handlebars
+inspired templating and DOM diffing algorithm like VDOM that many web developer already
+familiar with instead of reinventing the wheel again in this area.
 
 ![](https://github.com/jfyne/live-examples/blob/main/chat.gif)
 
 Compatible with `net/http`, so will play nicely with middleware and other frameworks.
+In other words, a thin layer on top of `net/http`. We want to leverage Go strengths
+and be as idiomatic Go as possible.
 
 I am starting to use this in production where I work. As such, I will be fixing any issues
 I find and changing the API surface to make it as easy to use as possible.
 
 ## Community
 
-For bugs please use github issues. If you have a question about design or adding features, I
+For bugs please use Github Issues. If you have a question about design or adding features, I
 am happy to chat about it in the discussions tab.
 
 Discord server is [here](https://discord.gg/TuMNaXJMUG).
