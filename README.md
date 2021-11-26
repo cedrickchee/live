@@ -1,10 +1,11 @@
-# live
+# :zap: live
 
-Real-time user experiences with server-rendered HTML in Go. Inspired by and
-borrowing from Phoenix LiveView.
+live is reactive user experiences with Server-Side Rendered (SSR) HTML in Go over WebSockets :electric_plug:
+Inspired by and borrowing from [Phoenix LiveView](https://www.phoenixframework.org/).
 
-Live is intended as an alternative for React, Vue, Hotwire (Rails Turbolinks), Unpoly, etc.
-You can write an interactive web app just using Go and its templates. Coming soon, you can
+Live is intended as an alternative for React, Vue, [Hotwire](https://hotwired.dev/),
+[Unpoly](https://unpoly.com/), etc.
+You can write an interactive web app just using Go and its templates. Soon, you can
 write the templates in JSX and [morphDOM](https://github.com/patrick-steele-idem/morphdom)).
 This is to stay true to the spirit of web development and an attempt to solve the problem
 in a natural way. That is using an existing templating standard like JSX or Handlebars
